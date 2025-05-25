@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: service-with-docs
+  namespace: docs
+  description: docs
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:pet-managers
+annotations:
+  backstage.io/techdocs-ref: dir:.
