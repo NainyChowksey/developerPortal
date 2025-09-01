@@ -6,6 +6,7 @@ metadata:
   description: docs
   annotations:
     backstage.io/techdocs-ref: dir:.
+    backstage.io/project-slug: NainyChowksey/developerPortal
 spec:
   type: service
   lifecycle: experimental
